@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.suggestion-list {
+  background-color: white;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-radius: 0.28571429rem;
+  max-height: 200px;
+  overflow-y: auto;
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+  margin-top: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.suggestion-list .item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.suggestion-list .item:hover {
+  background-color: #f1f1f1;
+}
